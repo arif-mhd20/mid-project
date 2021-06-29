@@ -1,0 +1,1 @@
+[{"firstName":"arif","lastName":"muhammad","gender":"Male","birthday":"1998-04-02","religion":"ISLAM","email":"arif.aiub19@gmail.com","userName":"arif.mhd","password":"123456"}]
