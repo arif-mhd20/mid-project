@@ -95,7 +95,7 @@ div {
 </style>
 <body>
 
-      <legend>Login Form:</legend>
+      <legend style="background-color:#00ffff;">Login Form:</legend>
 
       <label for="username">username:</label>
       <input type="text" id="username" name="username" ><br><br>
@@ -110,3 +110,5 @@ div {
 
 
 <span style = "color:red"><?php echo $message; ?></span>
+
+<p>Dont have an account?<a href="registration-form.php">Register</a></p>

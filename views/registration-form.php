@@ -149,7 +149,7 @@ div {
 <body>
 
 
-      <legend><h2>Registration Form:</h2></legend>
+      <legend style="background-color:#0066ff;"><h2>Registration Form:</h2></legend>
 
 
 
@@ -200,4 +200,4 @@ div {
 
 
 
-<p>already have an account?<a href="login.php">Sign in</a></p>
+<p>already have an account?<a href="log-in-form.php">Sign in</a></p>

@@ -1,4 +1,13 @@
+<?php
+	session_start();
+	if(!isset($_SESSION["username"])){
+		header("Location: log-in-form.php");
+	}
+?>
 
+<?php
+    include 'menu-layout.php'
+?>
 
 <?php
 include '../operations/login_operations.php';
@@ -171,7 +180,7 @@ div {
   <input type="date" id="birthday" name="birthday" value="<?php echo $profile->birthday ?>"><br><br>
 
   <label for="email">Email:</label>
-  <input type="text" id="email" name="email" value="<?php echo $profile->email ?>"> ><br><br>
+  <input type="text" id="email" name="email" value="<?php echo $profile->email ?>"> <br><br>
 
 </fieldset><br>
 
